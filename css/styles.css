@@ -1,0 +1,66 @@
+body { background-color: #909b8c;
+font-size: 24px;
+}
+
+header {
+    color: white;
+
+    font-family:'Cormorant Infant', serif;
+font-size: 26px;}
+
+body {
+    font-family:'Cormorant Infant', serif ;} 
+
+    img {width: 100%;}
+
+h1 {
+    color: black;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+font-size: 42px;
+text-decoration: underline;
+font-family:'Cormorant Infant', serif ;}
+
+h2 {
+color: black;
+font-weight: bold;
+font-size: 30px;
+font-family: 'Cormorant Infant', serif;}
+
+h3{
+    color: black;
+    font-weight: bold;
+font-size: 25px;
+text-align: center;
+font-family: 'Cormorant Infant', serif;}
+
+h4 {font-weight: bold;
+font-size: 22px;}
+
+ p{
+      color: black;
+font-size: 24px;
+font-weight: lighter;
+line-height: 1.4 ; }
+
+
+a:visited {
+        color:rgb(0, 44, 145)}
+
+a:hover {
+        color: rgb(213, 181, 212);
+        text-decoration: underline;}
+
+a:active {color: green;}
+
+a:focus { 
+            outline: 2px solid blue; }
+
+    
+
+
+.button {
+        display: inline-block;
+        background-color: #7f8d7a;
+        color: white (221, 24, 24)font-size: 20px padding: 12px border-bottom: 2px solid#3f3c37 transition: 0.2s button:active { background-color: #bd7904 button:focus {border: 2px solid rgb(251, 251, 255)}
