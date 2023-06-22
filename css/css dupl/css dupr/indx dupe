@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">    
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="Sample meta description - index page.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/fav/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Index page</title>
+  </head>
+  <body id="index_page">
+    <!-- For the header -->
+	<header>
+		<!-- For the navigation -->
+		<div class="container">
+            <a href="index.html">
+			 <img src="img/brand/logo.png" class="logo" alt="Logo" >
+            </a>
+            <nav>
+              <ul class="navigation">
+                <li class="active"><a href="index.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+		</div>
+	</header>
+
+    <main>
+        <!-- For the hero section -->
+        <div id="hero">
+            <div class="container">
+                <h1>Hi, my name is John Doe <span>I'm a UX researcher and designer from Berlin</span></h1>
+                <p>This section is for the header paragraph text. This section is for the header paragraph text. This section is for the header paragraph text.</p>
+            </div>
+        </div>
+
+        <!-- For your work/projects -->
+        <div id="work">
+            <div class="container">
+                <div>
+                    <h2>My Work</h2>
+                </div>
+                <!--Project One-->
+                <div class="row"><!-- open row that holds (2) columns for project -->
+                  <div><!-- open first column (used for image) -->
+                    <picture><!--For students, the images below should be updated with real images-->
+                      <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                      <img src="http://via.placeholder.com/1200x800" alt="My Image">
+                    </picture>
+                  </div><!-- end first column -->
+                  <div><!-- open second column (used for text) -->
+                    <h3>Project one</h3><!-- heading for the project -->
+                    <p><!-- open paragraph -->
+                      Write a line or 2 of text as a short project introduction.
+                    </p><!-- end paragraph -->
+                    <p><!-- open paragraph -->
+                      Write a line or 2 mentioning skills used (optional).
+                    </p><!-- end paragraph -->
+                    <a href="#" class="button">Read more</a><!-- button or link label -->
+                  </div><!-- end second column -->
+                </div><!-- end row that holds (2) columns for project -->
+
+                <!--Project two-->
+                <div class="row"><!-- open row that holds (2) columns for project -->
+                  <div><!-- open first column (used for image) -->
+                    <picture><!--For students, the images below should be updated with real images-->
+                      <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+                      <img src="http://via.placeholder.com/1200x800" alt="My Image">
+                    </picture>
+                  </div><!-- end first column -->
+                  <div><!-- open second column (used for text) -->
+                    <h3>Project two</h3><!-- heading for the project -->
+                    <p><!-- open paragraph -->
+                      Write a line or 2 of text as a short project introduction.
+                    </p><!-- end paragraph -->
+                    <p><!-- open paragraph -->
+                      Write a line or 2 mentioning skills used (optional).
+                    </p><!-- end paragraph -->
+                    <a href="#" class="button">Read more</a><!-- button or link label -->
+                  </div><!-- end second column -->
+                </div><!-- end row that holds (2) columns for project -->
+            </div>
+        </div>
+    </main>
+
+
+<!-- For the footer  -->
+	<footer id="contact">
+		<div class="container">
+            <h2>Get in touch</h2>
+            <p>Do you like my work and want to discuss opportunities? Please get in touch.</p> 
+            <p>Call: <a href="tel:+491234567">+49 1234567</a> or Skype me at <a href="skype:hello.careerfoundry">hello.careerfoundry</a>.</p>
+            <p>Prefer sending an email?</p>
+            <div>
+                <a href="mailto:office@careerfoundry.com" class="button contact">Email me</a>
+            </div>
+            <ul class="social">
+            <!--Social Media Layout and Placeholders-->
+            <!--For students, the images below should be updated with real svgs and links should be updated-->
+                <li>
+                    <a href="LINKEDIN-URL" target="_blank">
+                        <img src="http://via.placeholder.com/32x32" alt="LinkedIn">
+                    </a>
+                </li>
+                <li>
+                    <a href="TWITTER-URL" target="_blank">
+                        <img src="http://via.placeholder.com/32x32" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="ANOTHER-SOCIAL-LINK">
+                        <img src="http://via.placeholder.com/32x32" alt="Social">
+                    </a>
+                </li>
+                <li>
+                    <a href="ANOTHER-SOCIAL-LINK">
+                        <img src="http://via.placeholder.com/32x32" alt="Social">
+                    </a>
+                </li>
+            </ul>
+            <p>Copyright John Doe 2022</p>
+        </div>
+        
+	</footer>
+  </body>
+</html>

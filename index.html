@@ -13,39 +13,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,500;1,700&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body id="index_page">
       <!-- For the header -->
 	<header>
 		<!-- For the navigation -->
-		<div id="float-img" class="container">
+		<div class="container">
     
             <img src="img/midesigns-portfolio-logo/midesigns-logoo.jpg" alt="logo" class="logo"> 
         
 			<nav>
-          <ul class="navigation">  </ul>
-
-				<a href="index.html">Work</a>
-				<a href="about.html">About</a>
-				<a href="#contact">Contact</a>
-			</nav>
+          <ul class="navigation">
+            <li class="active"> <a href="index.html">Work</a> </li>
+            <li><a href="about.html">About</a> </li>
+            <li><a href="#contact">Contact</a> </li>
+			</ul>
+      </nav>
 		</div>
 	</header>
 
     <main>
         <!-- For the hero section -->
-        <div id="hero" class="container">
+        <div id="hero">
+
+        <div class="container">
 
                 <h1>MiDesigns</h1> 
-                <p>
+                <p> <span>
                   Hello everyone! Welcome to my UX/UI Design Portfolio. Within my portfolio, you will get a glimpse into my experience, designs, and thought process. I am extremely grateful to be a UX Designer and proud to display my designs. If you have any questions or concerns, feel free to contact me! "People ignore design that ignores them." - Frank Chimero                   
 
                      "People ignore design that ignores them." - Frank Chimero
-                    </p>
+                    </span> </p>
+            </div>
             </div>
         
 
         <!-- For your work/projects -->
-        <div id="float-text" class="container">
+        <div id="work">
+        <div class="container">
         
             <div>
                 <h2>My Work</h2>
@@ -78,7 +82,7 @@
             </div><!-- end row that holds (2) columns for project -->
 
             <!--Project two-->
-            <div><!-- open row that holds (2) columns for project -->
+            <div class="row"><!-- open row that holds (2) columns for project -->
               <div><!-- open first column (used for image) -->
                 <picture>
                   <source srcset="img/milexis/milexis-logo.jpg" media="(max-width:767px)">
@@ -98,6 +102,7 @@
               </div><!-- end second column -->
             </div><!-- end row that holds (2) columns for project -->
         </div>
+        </div>
     </main>
 
 
@@ -116,21 +121,28 @@
             <a href="mailto:midestineew@gmail.com" class="button contact">Email Me</a>
             <div>
 
-              <div class="footer img">
+              <ul class="social">
                     <!--Social Media Layout and Placeholders-->
 
-                    
+                    <li>
                     <a href="mailto:midestineew@gmail.com">
                         <img src="img/icons/gmail-logo-svg.svg" alt="Gmail">
                     </a>
+                    </li>
+                    <li>
                     <a href="https://www.linkedin.com/in/midestine-waldron/" target="_blank">
                         <img src="img/icons/linkk-logo-svg.svg" alt="linkedin icon">
                     </a>
+                    </li>
+                      <li>
                     <a href="https://www.canva.com/design/DAFjR1neY9M/1v4m4nR89EIiCbdPtByYyA/edit?utm_content=DAFjR1neY9M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
                        <img src="img/resume/smile-headshot.png" alt="Resume">
                     </a>
-                </div>
+                    </li>
+                    </ul>
+                
             <p>Copyright MiDestine Waldron 2023</p>
+            </div>
             </div>
         </div>
 	</footer>
