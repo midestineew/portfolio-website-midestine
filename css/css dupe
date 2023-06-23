@@ -49,8 +49,8 @@ h4 {
 
 /*setting images to full-width*/
 img {
-  width:100%;}
-
+  width: 100%;
+}
 
 /*change the default link color to your primary color (copied from your comments at the top of the document)*/
 a {
@@ -129,7 +129,7 @@ a:focus {
 
 /*style the <header> element*/
 header {
-  background-color: #8eae86;
+  background-color: #ffe4c4;
   text-align: center;
   padding: 10px 0;
   position: relative;
@@ -162,7 +162,7 @@ nav > ul > li > a {
 }
 
 #hero {
-  background-color: #8eae86;
+  background-color: #ffe4c4;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -198,9 +198,3 @@ nav > ul > li > a {
 }
 
 #work .row { padding-bottom: 25px; border-bottom: 2px solid #4a4a4a; }
-          
-
-   
-
-
-
