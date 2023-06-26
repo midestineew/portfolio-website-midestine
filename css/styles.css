@@ -31,6 +31,8 @@ h1 {
   text-align: center; /* Centers text */
 }
 
+#hero span{ display: block;}
+
 h2 {
   font-size: 30px;
   font-weight: 400;
@@ -88,7 +90,8 @@ a:focus {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30; /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 /*button class hover and active state*/
@@ -131,7 +134,7 @@ a:focus {
 header {
   background-color: #8eae86;
   text-align: center;
-  padding: 10px 0;
+  padding: 99px; /*padding was 10px 0 */
   position: relative;
   box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
@@ -194,13 +197,50 @@ nav > ul > li > a {
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  .row:after {
+    content: "";
+    clear: both;
+    display: table;
+  } /* 25px top and bottom, 0 left and right */
 }
 
 #work .row { padding-bottom: 25px; border-bottom: 2px solid #4a4a4a; }
           
 
-   
+   /*----Media/Animations*/
 
+   @media only screen and (min-width: 640px) 
+   { header {
+        text-align: unset;
+        padding: 20px 0 13px;}
+      nav{
+        width: auto;
+        float: right;
+        margin-top: 4px;}
+        .col-md-6 {
+          width: 50%;
+        [class*="col-"] 
+          [float: left;]   }}
 
+@media only screen {(min-width: 1024px)}
 
+@media screen (min-width: 1440px) {}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes color-change {
+  from {fill: #994c30;}
+  to {fill: #0705aa;}}
+
+  .tech {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
