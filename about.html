@@ -3,68 +3,75 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="MiDestine Waldron">
-    <meta name="description" content="Sample meta description">
+    <meta name="description" content="Sample meta description - about page.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiDesigns</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="img/fav/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,500;1,700&display=swap" rel="stylesheet">
+    
+    <title>MiDesigns</title>
   </head>
-  <body id="about_page">
-      <!-- For the header -->
+  <body id="index-page">
+    <!-- For the header -->
 	<header>
 		<!-- For the navigation -->
 		<div class="container">
-    
-            <img src="img/midesigns-portfolio-logo/midesigns-logoo.jpg" alt="logo" class="logo"> 
-        
-			<nav>
-          <ul class="navigation">
-            <li class="active"> <a href="index.html">Work</a> </li>
-				<li><a href="about.html">About</a> </li>
-				<li><a href="#contact">Contact</a> </li>
-			</ul>
-      </nav>
+            <a href="index.html">
+			 <img src="img/midesigns-portfolio-logo/midesigns-logoo.jpg" alt="logo" class="logo">
+            </a>
+            <nav>
+              <ul class="navigation">
+                <li><a href="index.html">Work</a></li>
+                <li class="active"><a href="about.html">About</a></li>
+                <li><a href="#work">Contact</a></li>
+              </ul>
+            </nav>
 		</div>
 	</header>
 
     <main>
-        <div class="container">
-            <div>
-            <h1>About MiDestine</h1>
+        <!-- For the hero section -->
+        <div id="hero" style="margin-bottom: 40px;">
+            <div class="container">
+                <h1>About MiDestine</h1>
+            </div>
         </div>
-         </div>
-             <div>
-                    <img src="img/resume/smile-headshot.png" alt="personal headshot">
- 
+        <div class="container">
+            <div><!--For the image, My Story and Skills and tools sections-->
                 <div>
-                    <h2> Background </h2>
-                    <p>I started my journey in tech roughly two years ago. I have a background education in healthcare. I loved having the ability to assist in physically bettering people's lives. However, I found that I can be more helpful to patients and users on the opposite end. For this reason, I decided to dive into the tech world. My goal as a designer is to advocate for more inclusive applications that cater to all despite one's mental or physical abilities. I am seeking to use my passion for both creativity and leadership as displayed by training employees with previous companies. I'd like to work with an organization long-term where creativity is encouraged and results are rewarded.</p>
-         
-          
-    
-            <a href="files/midestine-waldron-uxdesign-resume-2023.pdf" target="_blank" class="button">View My Resume</a>
-    </div>
-<div>
-    <h2>Skills &amp; Tools</h2>
-    <div>
-        <ul>
-                    <h3>Relavant Soft Skills</h3>
-                        <li> Problem-Solving: Recognize &amp; acknowledge inconveniences </li>
-                        <li> Adaptability: Acclimate well to change </li>
-                        <li> Worked 40 hour work week while completing 25hr school week </li>
-                        <li> Empathetic: Respect and create accommodations </li>
-                        <li> Integrity: Accountable for mistakes </li>
-                        <li> Conflict Resolution: Emphasize communication &amp; listening </li>
-                        <li> Value uniformity and creativity </li>
-        </ul>
-                </div>
-                    <div>
-                    <h3>A Few Of My Top Tools</h3>
-                         <ul>
+                    <picture><!--For students, the images below should be updated with real images-->
+                      <source srcset="img/resume/smile-headshot.png" media="(max-width:767px)">
+                      <img src="img/resume/smile-headshot.png" alt="My Image">
+                    </picture>
+                    <div><!--For My Story and Skills and tools sections-->
+                        <div class="column col-lg-7"><!--Column one-->
+                            <h2>Background</h2>
+                            <p>I started my journey in tech roughly two years ago. I have a background education in healthcare. I loved having the ability to assist in physically bettering people's lives. However, I found that I can be more helpful to patients and users on the opposite end. For this reason, I decided to dive into the tech world. My goal as a designer is to advocate for more inclusive applications that cater to all despite one's mental or physical abilities. I am seeking to use my passion for both creativity and leadership as displayed by training employees with previous companies. I'd like to work with an organization long-term where creativity is encouraged and results are rewarded.
+                            </p>
+                            
+                            <div class="center"><a href="files/midestine-waldron-uxdesign-resume-2023.pdf" target="_blank" class="button">Resume</a></div>
+                        </div>
+                        <div class="column col-lg-8"><!--Column two-->
+                            <h2>Skills &amp; Tools</h2>
+                            <div class="column col-md-6"><!--Column two, row one-->
+                                <h3>Relevant Soft Skills</h3>
+                                <ul>
+                                    <li> Problem-Solving: Recognize &amp; acknowledge inconveniences </li>
+                                    <li> Adaptability: Acclimate well to change </li>
+                                    <li> Worked 40 hour work week while completing 25hr school week </li>
+                                    <li> Empathetic: Respect and create accommodations </li>
+                                    <li> Integrity: Accountable for mistakes </li>
+                                    <li> Conflict Resolution: Emphasize communication &amp; listening </li>
+                                    <li> Value uniformity and creativity </li>
+                                </ul>
+                            </div>
+                            <div class="column col-md-6"><!--Column two, row two-->
+                                <h3>A Few Of My Top Tools</h3>
+                                <ul>
                                     <li> Figma </li>
                                     <li> Microsoft Office </li>
                                     <li> Visual Code Studio </li>
@@ -76,52 +83,48 @@
                                     <li> User Research &amp; Testing </li>
                                     <li> A/B Testing </li>
                                     <li> Prototyping </li>
-                        
-                          </ul>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+                </div>
             </div>
-         </div>
- </main>
+        </div>
+    </main>
 
 
-	<!-- For the footer  -->
-    <footer id="contact">
-        <div class="container">
-
+<!-- For the footer  -->
+	<footer id="contact" style="clear: both;">
+		<div class="container">
             <h2>Get in touch</h2>
-            <p>Hi there, do you like my work and want to discuss opportunities? Please feel free to reach out!</p>
+            <p>Hi there, do you like my work and want to discuss opportunities? Please feel free to reach out!</p> 
             <p>Call: <a href="tel:+404-477-9285">+404-477-9285</a> or message me on LinkedIn at <a href="https://www.linkedin.com/in/midestine-waldron/" target="_blank"> MiDestine Waldron LinkedIn</a>.</p>
             <p>Prefer sending an email?</p>
-        
-
-    
-    
-            <a href="mailto:midestineew@gmail.com" class="button contact">Email Me</a>
             <div>
-
-              <ul class="social">
+                <p><a href="mailto:midestineew@gmail.com" class="button contact">Email Me</a></p>
+            </div>
+            <ul class="social">
                     <!--Social Media Layout and Placeholders-->
 
-                    <li>
+                <li>
                     <a href="mailto:midestineew@gmail.com">
                         <img src="img/icons/gmail-logo-svg.svg" alt="Gmail">
                     </a>
-                    </li>
-                    <li>
+                </li>
+                <li>
                     <a href="https://www.linkedin.com/in/midestine-waldron/" target="_blank">
                         <img src="img/icons/linkk-logo-svg.svg" alt="linkedin icon">
                     </a>
-                    </li>
-                      <li>
+                </li>
+                <li>
                     <a href="https://www.canva.com/design/DAFjR1neY9M/1v4m4nR89EIiCbdPtByYyA/edit?utm_content=DAFjR1neY9M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
                        <img src="img/resume/smile-headshot.png" alt="Resume">
                     </a>
-                    </li>
-                    </ul>
-                
+                </li>
+            </ul>
             <p>Copyright MiDestine Waldron 2023</p>
-            </div>
-            </div>
+        </div>
+        
 	</footer>
   </body>
 </html>
